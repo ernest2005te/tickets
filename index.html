@@ -12,18 +12,15 @@
       box-sizing: border-box;
     }
 
-
-    body {
+body {
   background: radial-gradient(ellipse at center, #0e0e0e 0%, #000000 100%);
   color: #ccc;
   font-family: 'Orbitron', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: ;
   text-align: center;
-  /* Remove this line */
-  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* Enable scrolling on the Y-axis */
+  display: block; /* Remove flex, so it doesn’t restrict layout */
 }
 
     .container {
